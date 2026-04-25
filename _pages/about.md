@@ -2,11 +2,11 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='#'>PhD student</a>. Roslin Institute, UK.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: tanmay_profile.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
     <p>Roslin Institute</p>
@@ -27,8 +27,12 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi! I'm Tanmay Debnath, currently a PhD student at the Roslin Institute, UK studying bioinformatics and AI. My main focus is to uncover the regulatory grammar of cattle (which is a non-model species, making it data scarce). 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I'm not a typical bioinformatics student. I'm the real impostor! I have completed my undergraduate studies in Mechanical Engineering from IIITDM Jabalpur. Then, I went to Japan to pursue my Masters in Mechanical Engineering. Makes sense?
+
+I'm always curious about science and anything about it makes me wonder! I only have one motto in life: "Never stop learning!"
+
+Shoot me an email and let's have a chat! Maybe we could come up with something exciting that we never thought could exist
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
