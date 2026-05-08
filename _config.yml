@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: TD # the website title (if blank, full name will be used instead)
+title: TDx # the website title (if blank, full name will be used instead)
 first_name: Tanmay
 middle_name: 
 last_name: Debnath
@@ -159,8 +159,6 @@ collections:
   news:
     defaults:
       layout: post
-    output: true
-  projects:
     output: true
   teachings:
     output: true
