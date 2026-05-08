@@ -405,16 +405,14 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-new-ai-tool-for-measuring-tibia-breaking-strength-in-chicken-has-been-published-on-poultry-science",
+          title: 'New AI tool for measuring tibia breaking strength in chicken has been published...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-checkout-our-new-preprint-on-biorxiv",
+          title: 'Checkout our new preprint on BioRxiv',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-presenting-a-poster-at-the-ai-in-biology-2026-conference-at-cshl-sparkles-smile",
+          title: 'Presenting a poster at the AI in Biology 2026 conference at CSHL! :sparkles:...',
           description: "",
           section: "News",},{
         id: 'social-cv',
