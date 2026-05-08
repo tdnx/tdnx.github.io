@@ -160,8 +160,8 @@ collections:
     defaults:
       layout: post
     output: true
-  teachings:
-    output: true
+  # teachings:
+  #   output: true
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
