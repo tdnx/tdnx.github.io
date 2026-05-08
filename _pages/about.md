@@ -34,5 +34,3 @@ I'm not a typical bioinformatics student. I'm the real impostor! I have complete
 I'm always curious about science and anything about it makes me wonder! I only have one motto in life: "Never stop learning!"
 
 Shoot me an email and let's have a chat! Maybe we could come up with something exciting that we never thought could exist
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
