@@ -23,28 +23,39 @@ cv:
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
+      - institution: The Roslin Institute, University of Edinburgh
+        location: Edinburgh, UK
+        url: https://vet.ed.ac.uk/roslin
+        area: Bioinformatics and AI
         studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+        start_date: 2023
+        # end_date: 2027
+        # score: ""
+        # courses: "Theory of Relativity"
         highlights:
-          - Description 1.
-          - Description 2.
+          - Working on developing AI models to decipher regulatory grammar of mammalian species.
+          - Fine-tuning large seq2func models to predict variant effect size and directions on non-model mammalian species.
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+      - institution: Toyohashi University of Technology
+        location: Toyohashi, Japan
+        area: Mechanical Engineering 
+        studyType: M. Eng
+        start_date: 2021
+        end_date: 2023
+        score: "3.94/4.00"
         highlights:
-          - Description 1.
-          - Description 2.
+          - Implementation of machine learning tools for automating various BioMEMS processes.
+
+      - institution: PDPM IIITDM Jabalpur
+        location: Jabalpur, India
+        area: Mechanical Engineering 
+        studyType: B. Tech
+        start_date: 2017
+        end_date: 2021
+        score: "8.2/10.0"
+        # highlights:
+        #   - Description 1.
+        #   - Description 2.
 
     Experience:
       - company: Institute for Advanced Study, Princeton University
@@ -84,16 +95,16 @@ cv:
         start_date: 1909
         end_date: 1911
 
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+    # Volunteer:
+    #   - company: People's Climate March
+    #     position: Lead Organizer
+    #     location: Zurich, Switzerland
+    #     start_date: 2014-04-01
+    #     end_date: 2015-07-01
+    #     summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+    #     highlights:
+    #       - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
+    #       - "Men of the year 2014 by Time magazine"
 
     Awards:
       - title: Nobel Prize in Physics
@@ -143,7 +154,10 @@ cv:
         keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
 
     Languages:
-      - name: German
+      - name: Bengali
+        summary: "Native speaker"
+
+      - name: Hindi
         summary: "Native speaker"
 
       - name: English
@@ -154,36 +168,36 @@ cv:
         icon: fa-solid fa-tag
         keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
 
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
+    # Certificates:
+    #   - name: Machine Learning
+    #     date: 2018-01-01
+    #     issuer: Stanford University
+    #     icon: fa-solid fa-location-dot
 
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
+    #   - name: Quantum Computing
+    #     date: 2018-01-01
+    #     issuer: Stanford University
+    #     icon: fa-solid fa-tag
 
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+    #   - name: Quantum Information
+    #     date: 2018-01-01
+    #     issuer: Stanford University
+    #     icon: fa-solid fa-envelope
 
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+    # Projects:
+    #   - name: Quantum Computing
+    #     summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
+    #     highlights:
+    #       - Quantum Teleportation
+    #       - Quantum Cryptography
+    #     start_date: 2018-01-01
+    #     end_date: 2018-01-01
 
     References:
-      - name: Professor John Doe
+      - name: Professor James Prendergast
         icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+        reference: Prof. Prendergast is a bioinformatician researching on cattle genomics and trying to identify variants relevant for commerical purposes like dairy production or meat quality.
 
-      - name: Professor Jane Smith
+      - name: Professor Moeto Nagai
         icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+        reference: Prof. Nagai is a Mechanical Engineer who is researching on micro fabrication. His expertise lies in designing and manufacturing microfluidics chips for single-cell trapping, 3D cell and organoid printing
