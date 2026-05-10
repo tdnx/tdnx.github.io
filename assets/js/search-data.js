@@ -429,6 +429,13 @@ ninja.data = [{
           window.open("mailto:%74%61%6E%6D%61%79%64%65%62%6E%61%74%68.%65%64.%75%6B@%67%6D%61%69%6C.%63%6F%6D", "_blank");
         },
       },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/{"value"=>"tanmay-debnath", "logo"=>"fa-brands fa-linkedin-in"}", "_blank");
+        },
+      },{
       id: 'light-theme',
       title: 'Change theme to light',
       description: 'Change the theme of the site to Light',
