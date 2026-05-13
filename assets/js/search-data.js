@@ -37,15 +37,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-",
+        },{id: "post-a-distributed-genomics-model-trainer",
         
-          title: "",
+          title: "A distributed genomics model trainer",
         
-        description: "",
+        description: "Explanation of distrain module",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2026/2026-05-12-distrain/";
+            window.location.href = "/blog/2026/distrain/";
           
         },
       },{id: "books-the-davinci-code",
