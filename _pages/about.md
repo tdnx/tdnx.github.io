@@ -27,7 +27,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi! I'm Tanmay, currently a PhD student at the Roslin Institute, UK studying bioinformatics and AI. Yes, that's how you remember my name (10may). It's a date, essentially. And no, it's not my birthday! 
+Hi! I'm Tanmay, currently a PhD student at the Roslin Institute, UK studying bioinformatics and AI. *Yes, that's how you remember my name (10may). It's a date, essentially. And no, it's not my birthday!* 
 
 My main focus is to uncover the regulatory grammar of cattle (which is a non-model species, making it data scarce). I'm not a typical bioinformatics student. I'm the real impostor! I have completed my undergraduate studies in Mechanical Engineering from IIITDM Jabalpur. Then, I went to Japan to pursue my Masters in Mechanical Engineering. Makes sense?
 
