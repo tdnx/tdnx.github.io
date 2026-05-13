@@ -400,11 +400,11 @@ ninja.data = [{
             window.location.href = "/blog/2015/formatting-and-links/";
           
         },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
+      },{id: "books-the-davinci-code",
+          title: 'The DaVinci Code',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
+              window.location.href = "/books/the_davinci_code/";
             },},{id: "news-new-ai-tool-for-measuring-tibia-breaking-strength-in-chicken-has-been-published-on-poultry-science",
           title: 'New AI tool for measuring tibia breaking strength in chicken has been published...',
           description: "",
