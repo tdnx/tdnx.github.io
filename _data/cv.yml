@@ -195,7 +195,7 @@ cv:
         keywords: "FPGAs, Edge computation"
 
       - name: Neuroscience
-        icon: fa-solid, fa-tag
+        icon: fa-solid fa-tag
         keywords: "Memory, Connectomes"
 
     # Certificates:
