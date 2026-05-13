@@ -15,11 +15,11 @@ cv:
       username: example
 
   address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+    street: The Roslin Institute, Easter Bush Campus
+    city: Edinburgh
+    region: Midlothian
+    postalCode: EH25 9RG
+    countryCode: UK
 
   sections:
     Education:
@@ -40,6 +40,7 @@ cv:
         location: Toyohashi, Japan
         area: Mechanical Engineering 
         studyType: M. Eng
+        url: https://www.tut.ac.jp/english/
         start_date: 2021
         end_date: 2023
         score: "3.94/4.00"
@@ -50,6 +51,7 @@ cv:
         location: Jabalpur, India
         area: Mechanical Engineering 
         studyType: B. Tech
+        url: https://www.iiitdmj.ac.in/
         start_date: 2017
         end_date: 2021
         score: "8.2/10.0"
@@ -58,69 +60,77 @@ cv:
         #   - Description 2.
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: Toyohashi University of Technology
+        position: Research Associate
+        location: Toyohashi, JP
+        start_date: 2021
+        end_date: 2023
+        summary: Worked under the guidance of Prof. Moeto Nagai as a graduate researcher
         highlights:
-          - Relativity
-          - Description 2.
+          - Developed a new object detection model, designed specially for cells at high and low magnification, for real-time detection of cells and cell viability prediction. Achieved an mAP value greater than 0.94
+          - Worked on multi-armed bandit problem to find the parameters important for optimization of the optical system and photocuring process, for single-cell extraction. Optimized intensity using RL
+          - Worked on explainable AI systems
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: AWL, Inc.
+        position: AI Engineer
+        location: Hokkaido, JP
+        start_date: 2022
+        end_date: 2022
+        summary: Worked as an AI Engineer in the R&D division of the company
         highlights:
-          - Description 1.
-          - Description 2.
+          - Developed model fine-tuning pipeline of the current product; integrated into beta pipeline.
+          - Implemented AI architectures for feature extractions on company data for edge device Implementations.
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
+      - company: Case Western Researve University
+        position: ML Engineer
+        location: Cleveland, Ohio, US
+        start_date: 2021
+        end_date: 2021
+        summary: Worked in the biomedical engineering department as an ML Engineer
+        highlights:
+          - Developed and tested a Quality Assessment model (based on ResNet-18 ), using PyTorch, in ABIDE dataset, reaching 94% and 91% in training and validation accuracies
+          - Prepared SHAP and GRAD-CAM visualizations for explainable AI systems to characterize model learning.
+          - Research on Self-supervised learning for extracting features from radiological images autonomously
 
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    # Volunteer:
-    #   - company: People's Climate March
-    #     position: Lead Organizer
-    #     location: Zurich, Switzerland
-    #     start_date: 2014-04-01
-    #     end_date: 2015-07-01
-    #     summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-    #     highlights:
-    #       - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-    #       - "Men of the year 2014 by Time magazine"
+    Volunteer:
+      - company: Easter Bush Society
+        position: Treasurer
+        location: Edinburgh, UK
+        start_date: 2024-08
+        # end_date: 2015-07-01
+        summary: Managing all the financials related to the student society
+        # highlights:
+        #   - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
+        #   - "Men of the year 2014 by Time magazine"
+      - company: QB, Roslin Institute
+        position: Division Representative
+        location: Edinburgh, UK
+        start_date: 2024-08
+        # end_date: 2015-07-01
+        summary: Representing the PhD students at the Quantitative Biology (QB) division
 
     Awards:
-      - title: Nobel Prize in Physics
+      - title: Roslin Foundation Scholarship
         authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+          - "Roslin Foundation"
+        date: 2023
+        awarder: Roslin Foundation
+        # url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
+        summary: Full scholarship for PhD at the University of Edinburgh
 
-      - title: Max Planck Medal
+      - title: MSCA DC Scholarship
         authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+          - "MSCA"
+        date: 2023
+        awarder: MSCA DC Society
+        summary: Awarded the Marie Curie PhD Scholarship (declined)
+
+      - title: MEXT/JICA Scholarship
+        authors:
+          - "MEXT, Japan"
+        date: 2021
+        awarder: MEXT, Japan
+        summary: Awarded the MEXT/JICA scholarship for M.Eng in Japan
 
     Publications:
       - title: Zur Elektrodynamik bewegter Körper
@@ -148,10 +158,22 @@ cv:
         summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
 
     Skills:
-      - name: Physics
-        level: Master
+      - name: Programmaing
+        # level: Master
         icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+        keywords: "Python, C++, Rust"
+      - name: Frameworks
+        icon: fa-solid fa-hashtag
+        keywords: "PyTorch, Tensorflow"
+      - name: Developer tools
+        icon: fa-solid fa-hashtag
+        keywords: Git, Docker, VS Code, Visual Studio
+      - name: Data science libraries
+        icon: fa-solid fa-hashtag
+        keywords: OpenCV, Scikit-Learn, SciPy, Pandas, NumPy, Matplotlib, Albumentations, JAX
+      - name: Scientific Illustrations
+        icon: fa-solid fa-hashtag
+        keywords: Inkscape, Adobe Illustrator
 
     Languages:
       - name: Bengali
